@@ -14,8 +14,8 @@ curl_setopt_array($curl, [
 	CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 	CURLOPT_CUSTOMREQUEST => "GET",
 	CURLOPT_HTTPHEADER => [
-		"x-rapidapi-host: youtube-mp36.p.rapidapi.com",
-		"x-rapidapi-key: YOUR_RAPID_API_KEY"
+		"X-RapidAPI-Host: youtube-mp36.p.rapidapi.com",
+		"X-RapidAPI-Key: 719ebf6b9cmsh47e22e9c9ff678ap177be1jsna051965c605e"
 	],
 ]);
 
